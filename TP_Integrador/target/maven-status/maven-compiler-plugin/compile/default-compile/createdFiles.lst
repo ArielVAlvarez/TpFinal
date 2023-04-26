@@ -5,13 +5,11 @@ menus\MenuConfiguracion.class
 exceptions\RondaNegativaException.class
 modelo\Juego.class
 exceptions\CantidadDatosException.class
-gestores\GestorParticipantesSQL.class
 modelo\Puntos.class
 modelo\Partido.class
 menus\MenuPrincipal.class
 modelo\Main.class
 modelo\Ronda.class
-gestores\GestorParticipantes.class
 conexionDB\ConexionDB.class
 modelo\Resultado.class
 modelo\Equipo.class

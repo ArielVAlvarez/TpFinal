@@ -34,7 +34,6 @@ public class GestorPronosticosSQL {
 			conexion = ConexionDB.getConexion();
 			consulta = conexion.createStatement();
 			String consultaSql = "SELECT * FROM pronosticos ORDER BY nombre, nroRonda, nroPartido";
-			
 			ResultSet rsPronosticos = consulta.executeQuery(consultaSql);
 			System.out.println("Actualizando datos de la tabla *pronosticos*");
 			while (rsPronosticos.next()) {
